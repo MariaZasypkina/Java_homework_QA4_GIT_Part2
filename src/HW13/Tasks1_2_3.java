@@ -51,6 +51,16 @@ public class Tasks1_2_3 {
 //Попробуйте изменить тип итерационной переменной из цикла, в третьей задаче, на Integer (не int, а Integer) и добиться
 // такого же результата как и с типом int.
 
-
+        List <Integer> list2 = new ArrayList<>();
+        for (Integer i = 100; i <=1000; i++){
+            list2.add(i);
+        }
+        System.out.println(list2);
+        for (Integer i = list2.size()-1; i >=0; i--){
+            if(list2.get(i)%2==0){
+                list2.remove(i.intValue());
+            }
+        }
+        System.out.println(list2);
     }
 }
