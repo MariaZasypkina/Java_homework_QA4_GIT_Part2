@@ -1,10 +1,8 @@
 package HW13;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
-import static java.util.Collections.list;
 
 public class Task1 {
     public static void main(String[] args) {
@@ -28,7 +26,4 @@ public class Task1 {
 
         System.out.println(list);
     }
-
 }
-
-//Затем удалить из этого списка все цвета в которых встречается буква “L”
