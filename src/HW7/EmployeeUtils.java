@@ -36,8 +36,8 @@ public class EmployeeUtils {
         }
         return maxSal;
 
-
     }
+
 
     public static int minSalary(Worker[] workers) {
         int minSal = 0;
